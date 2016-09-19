@@ -9,7 +9,6 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import com.adminweb.Application;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = Application.class)
 @WebAppConfiguration
 public class ApplicationTests {
 	@Test
